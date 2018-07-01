@@ -1,2 +1,0 @@
-# Distributed data Index Engine
-We need to store and [retrieve](https://en.wikipedia.org/wiki/Information_retrieval) data in any query that we index data! We must use SSD and DRAM for index data to speed up data lookup.
