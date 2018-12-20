@@ -13,3 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+
+// Store date & time data for any app access.
+// Sync with servers, If offline from Bios||EUFI automatically.
+// User can change manually in Bios||EUFI just if network absent!

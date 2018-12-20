@@ -13,3 +13,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+
+/*
+OS just support IPv6 so 4 level of routing exist:
+- 0 to 31 bit (Global routing)
+- 32 to 63 bit (ISP routing)
+- 64 to 112 bit (Edge routing)
+- 113 to 128 bit (OS routing)
+
+By each block OS get from upper router it is use related router-ip.
+*/
+
+// Each app can have one unique IPv6

@@ -13,3 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+
+// Store public & private key of thing.
+static[32] char thingPublicKey, thingPrivateKey;
+
+// Get public key to any app request.
+[32] unsigned char GetThingPublicKey() {};

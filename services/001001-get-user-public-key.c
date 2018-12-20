@@ -14,4 +14,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// https://en.wikipedia.org/wiki/Preboot_Execution_Environment
+// Get user public key to any app request.
+[32] unsigned char GetUserPublicKey() {};
