@@ -1,3 +1,4 @@
 /* For license and copyright information please see LEGAL file in repository */
 
-// https://en.wikipedia.org/wiki/Preboot_Execution_Environment
+// Get public key to any app request.
+[32] unsigned char GetThingPublicKey() {};
